@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+	<link rel="stylesheet" type="text/css" href="./awesomplete-gh-pages/awesomplete.css">
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<link rel="stylesheet" type="text/css" href="./nouislider.min.css">
+
+	
+<head>
+
+	<script type="text/javascript" src="./jquery-3.1.1.js"></script>
+
+	<script type="text/javascript" src="./nouislider.min.js"></script>
+
+	<script type="text/javascript" src="./jquery-3.1.1.min.js"></script>
+
+	<script type="text/javascript" src="./cacheJS-master/dist/cacheJS.js"></script>
+
+	<script type="text/javascript" src="./popup.js"></script>
+
+	<script type="text/javascript" src="./clipboard.js"></script>
+
+	<script type="text/javascript" src="./awesomplete-gh-pages/awesomplete.js"></script>
+
+</head>
+
+<body>
+
+	<div align="center">
+
+		<hr>
+
+			<p align="left" style="font-size:15px;">Customize<p>
+
+		<hr>
+
+		<table id="customtool" style="margin-top:-30px;">
+
+			<tr>
+				<td cellpadding="9">Red</td>
+				<td>
+
+					<div id="sliderr">
+
+					</div>
+
+					<input type="number" id="rone" class="noinput" placeholder="R1" max="255" style="margin-top:12px;"/>
+				
+					<input type="number" id="rtwo" class="noinput" placeholder="R2" max="255" style = "margin-left:90px;"/>
+
+				</td>
+
+				<td colspan = "4">
+
+					<input type="button" id="submit" value="Customize"/>
+
+
+				</td>
+
+				<td colspan = "4" id="result" >
+
+					<div style="margin-bottom:-150px;" class='gradient-block' id='custom'><div class='grad-font'></div></div>
+
+				</td>
+
+			</tr>
+
+			<tr>
+				<td style="margin-right:40px;" align="center">Green</td>
+				<td>
+
+					<div id="sliderg" style="margin-top:-15px;">
+
+					</div>
+
+					<input type="number" id="gone" class="noinput" placeholder="R1" max="255" style="margin-top:12px;"/>
+					
+					<input type="number" id="gtwo" class="noinput" placeholder="R2" max="255" style = "margin-left:90px;"/>
+
+				</td>
+
+			</tr>
+				<td style="margin-right:40px;">Blue</td>
+				<td>
+
+					<div id="sliderb" style="margin-top:29px;">
+
+					</div>
+
+					<input type="number" id="bone" class="noinput" placeholder="R1" max="255" style="margin-top:12px;"/>
+					
+					<input type="number" id="btwo" class="noinput" placeholder="R2" max="255" style = "margin-left:90px;"/>
+
+				</td>
+
+			<tr>
+
+			</tr>
+
+		</table>
+
+	</div>
+
+
+
+	<div align="center"/>
+
+		<hr>
+
+		<p align="left" style="font-size:15px;">Search</p>
+
+		<hr>
+
+		<table>
+
+			<tr>
+
+				<td><input id="searchbar" class="awesomplete" placeholder ="Search"/></td>
+
+				<td><select id="searchdrop"></select></td>
+
+			</tr>
+
+			<tr>
+
+				<td><table id="searchres" align="center"><tr><td id="search-td"></td></tr></table></td>
+
+				<td><table align="center"><tr><td id="searchdrop-td"></td></tr></table></td>
+
+			</tr>
+
+		</table>
+
+	</div>
+
+
+	<div>
+
+		<hr>
+
+		<p align="left" style="font-size:15px;">Recently used</p>
+
+		<hr>
+
+		<table id="recent" align="center">
+
+			<tr id="recent-tr">
+
+			</tr>
+
+		</table>
+
+	</div>
+
+	<div>
+
+		<hr>
+
+		<p align="left" style="font-size:15px;">All Gradients</p>
+
+		<hr>
+
+		<div id="main" align="center">
+
+			<table id="gradients-whole">
+
+			</table>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
